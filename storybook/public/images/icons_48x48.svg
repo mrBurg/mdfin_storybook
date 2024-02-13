@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="96px" height="48px" viewBox="0 0 96 48" style="enable-background:new 0 0 96 48;" xml:space="preserve">
+    <g>
+        <rect fill="none" width="48" height="48"/>
+        <path fill="#ffffff" d="M35.75,21.5h-8.73v-7.47L9.75,24l17.27,9.97V26.5h8.73c1.38,0,2.5-1.12,2.5-2.5S37.13,21.5,35.75,21.5z"/>
+    </g>
+    <g>
+        <rect x="48" fill="none" width="48" height="48"/>
+        <path fill="#ffffff" d="M60.25,26.5h8.73v7.47L86.25,24l-17.27-9.97v7.47h-8.73c-1.38,0-2.5,1.12-2.5,2.5S58.87,26.5,60.25,26.5z"/>
+    </g>
+</svg>

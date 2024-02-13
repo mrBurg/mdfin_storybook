@@ -1,0 +1,32 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-cookies/dist/css/Cookies.css';
+import scss from './Cookies.module.scss';
+
+import { storytitle, args } from './props';
+
+import { Cookies } from 'mdfin-cookies';
+
+<Meta title={`${storytitle}/Description`} component={Cookies} />
+
+# Cookies
+
+<div className="description">
+  The component sets the Cookie "Cookies_Access" to 1 If the cookie was set to
+  1, the component is not rendered
+</div>
+
+<div className={scss.wrapper}>
+  <Cookies
+    {...args}
+    className={scss.cookie}
+    text={
+      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis incidunt praesentium eligendi voluptatum! Necessitatibus, architecto? Officiis, doloremque rem quibusdam eligendi magnam, repudiandae dolorum repellat ducimus corrupti perferendis dignissimos, quidem magni.'
+    }
+    buttonText={'ok'}
+  />
+</div>
+
+**Directory** `components/Cookies`
+
+[**component-driven**](/story/molecules-cookies--cookies-component)

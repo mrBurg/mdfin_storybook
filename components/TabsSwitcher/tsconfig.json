@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "rootDir": "./",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["dist"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}

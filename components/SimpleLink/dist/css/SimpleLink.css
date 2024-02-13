@@ -1,0 +1,30 @@
+.SimpleLink_simpleLink__SPB76 {
+  transition: all 0.2s;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: #50263a;
+}
+
+.SimpleLink_inlineBlock__DkCyx {
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  background-color: #fccc51;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 2px 4px 6px rgba(37, 48, 149, 0.25);
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.SimpleLink_inlineBlock__DkCyx:focus, .SimpleLink_inlineBlock__DkCyx:hover, .SimpleLink_inlineBlock__DkCyx:active {
+  background-color: #eabe4f;
+}
+
+.SimpleLink_inline__A-eh- {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.SimpleLink_inline__A-eh-:hover {
+  text-decoration: none;
+}
+/*# sourceMappingURL=SimpleLink.css.map */

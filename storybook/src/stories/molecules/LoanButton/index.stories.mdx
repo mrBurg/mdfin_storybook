@@ -1,0 +1,132 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-loan-button/dist/css/LoanButton.css';
+import scss from './LoanButton.module.scss';
+
+import { storytitle, args } from './props';
+
+import { LoanButton, COLOR_STYLE, LAOUT } from 'mdfin-loan-button';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Simple-Button
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/LoanButton`
+
+<dl>
+  <dt>colorStyle="{COLOR_STYLE.FULLCOLOR}"</dt>
+  <dd>
+    <table>
+      <tbody>
+        <tr>
+          <td>layout={LAOUT.SQUARE}</td>
+          <td>layout={LAOUT.ROUNDED}</td>
+          <td>layout={LAOUT.OVAL}</td>
+        </tr>
+        <tr>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.SQUARE}
+              className={scss.loanButton}
+            />
+          </td>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.ROUNDED}
+              className={scss.loanButton}
+            />
+          </td>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.OVAL}
+              className={scss.loanButton}
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </dd>
+  <dt>colorStyle="{COLOR_STYLE.MONOCHROME}"</dt>
+  <dd>
+    <table>
+      <tbody>
+        <tr>
+          <td>layout={LAOUT.SQUARE}</td>
+          <td>layout={LAOUT.ROUNDED}</td>
+          <td>layout={LAOUT.OVAL}</td>
+        </tr>
+        <tr>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.SQUARE}
+              colorStyle={COLOR_STYLE.MONOCHROME}
+              className={scss.loanButton}
+            />
+          </td>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.ROUNDED}
+              colorStyle={COLOR_STYLE.MONOCHROME}
+              className={scss.loanButton}
+            />
+          </td>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.OVAL}
+              colorStyle={COLOR_STYLE.MONOCHROME}
+              className={scss.loanButton}
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </dd>
+  <dt>colorStyle="custom style"</dt>
+  <dd>
+    <table>
+      <tbody>
+        <tr>
+          <td>layout={LAOUT.SQUARE}</td>
+          <td>layout={LAOUT.ROUNDED}</td>
+          <td>layout={LAOUT.OVAL}</td>
+        </tr>
+        <tr>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.SQUARE}
+              colorStyle={COLOR_STYLE.MONOCHROME}
+              className={scss.loanButtonBlue}
+            />
+          </td>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.ROUNDED}
+              colorStyle={COLOR_STYLE.MONOCHROME}
+              className={scss.loanButtonBlue}
+            />
+          </td>
+          <td>
+            <LoanButton
+              {...args}
+              layout={LAOUT.OVAL}
+              colorStyle={COLOR_STYLE.MONOCHROME}
+              className={scss.loanButtonBlue}
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </dd>
+</dl>
+
+[**component-driven**](/story/molecules-loanbutton--loan-button-component)

@@ -1,0 +1,35 @@
+@import '~mdfin-slider-widget/dist/css/SliderWidget.css';
+
+.ProductSelector_productSelector__PT0JI {
+  max-width: 360px;
+  background-color: #ffffff;
+  border-radius: 1em;
+  overflow: hidden;
+}
+.ProductSelector_productSelector__PT0JI .ProductSelector_slider__74mtV {
+  background-color: #f6f7fb;
+  padding: 1em 0.5em;
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.ProductSelector_productSelector__PT0JI .ProductSelector_sliderItem__BrG-L .rc-slider-rail {
+  background-color: #ffffff;
+}
+.ProductSelector_productSelector__PT0JI .ProductSelector_button__h90lW {
+  margin: auto;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.ProductSelector_productSelector__PT0JI .ProductSelector_buttonHolder__1isbQ {
+  padding: 0.5em;
+}
+.ProductSelector_productSelector__PT0JI .ProductSelector_buttonHolder__1isbQ .simple-link {
+  color: #ffffff;
+  background-color: #e3a404;
+}
+.ProductSelector_productSelector__PT0JI .ProductSelector_buttonHolder__1isbQ .simple-link:hover {
+  background-color: #bd8d16;
+}
+/*# sourceMappingURL=ProductSelector.css.map */

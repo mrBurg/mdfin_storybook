@@ -1,0 +1,46 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import scss from './Theme.module.scss';
+
+import { storytitle, args } from './props';
+import { Sizes, Colors, Fonts, rowData } from './ThemeData';
+
+<Meta title={storytitle} />
+
+# The main theme used by [**MDFin**](https://mdfin.com/)
+
+<div className="description">
+  Компонент <b>mdfin-theme</b> являается основной темой для всех проектов
+</div>
+
+## Constansts
+
+### Sizes
+
+> **click** to copy to clipboard **name**, **ctrl + click** to copy to clipboard **value**
+
+<table className={scss.table}>
+  <Sizes />
+</table>
+
+### Colors
+
+> **click** to copy to clipboard **name**, **ctrl + click** to copy to clipboard **value**
+
+<Colors />
+
+## Fonts
+
+> **click** to copy to clipboard **font-face**
+
+### Calibri
+
+<table>{rowData(args.fonts.Calibri)}</table>
+
+### NunitoSans
+
+<table>{rowData(args.fonts.NunitoSans)}</table>
+
+### Raleway
+
+<table>{rowData(args.fonts.Raleway)}</table>

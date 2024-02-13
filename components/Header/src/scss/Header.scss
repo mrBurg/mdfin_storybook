@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  align-items: center;
+
+  :global .main-menu {
+    width: 100%;
+  }
+}

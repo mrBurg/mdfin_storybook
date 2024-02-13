@@ -1,0 +1,14 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.checkbox {
+  font-size: 1em;
+}
+
+.label {
+  margin-left: 0.2em;
+  cursor: pointer;
+}
+
+.invalid {
+  color: $red;
+}

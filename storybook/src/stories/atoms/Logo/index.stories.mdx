@@ -1,0 +1,45 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-logo/dist/css/Logo.css';
+import scss from './Logo.module.scss';
+
+import { Logo, LogoType } from 'mdfin-logo';
+
+import { storytitle } from './props';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Logo
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/Logo`
+
+<dl>
+  <dt>imprumut-acum logo</dt>
+  <dd>
+    <div className={scss.wrapper}>
+      <Logo value={'/Logo/logo-imprumut-acum.webp'} />
+    </div>
+  </dd>
+  <dt>imprumut logo</dt>
+  <dd>
+    <div className={scss.wrapper}>
+      <Logo value={'/Logo/logo-imprumut.png'} />
+    </div>
+  </dd>
+  <dt>rapide logo</dt>
+  <dd>
+    <div className={scss.wrapper}>
+      <Logo value={'/Logo/logo-rapide.svg'} />
+    </div>
+  </dd>
+  <dt>custom text logo</dt>
+  <dd>
+    <div className={scss.wrapper}>
+      <Logo type={LogoType.TEXT} value={'Creditare online'} />
+    </div>
+  </dd>
+</dl>
+
+[**component-driven**](/story/atoms-logo--primary-logo)

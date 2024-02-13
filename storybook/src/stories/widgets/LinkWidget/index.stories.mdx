@@ -1,0 +1,24 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import 'mdfin-link-widget/dist/css/LinkWidget.css';
+import scss from './LinkWidget.module.scss';
+
+import { storytitle, args } from './props';
+
+import { LinkWidget } from 'mdfin-link-widget';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Input-Widget
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/LinkWidget`
+
+### Link Widget
+
+<div className={scss.container}>
+  <LinkWidget {...args} />
+</div>
+
+[**component-driven**](/story/widgets-linkwidget--primary-link)

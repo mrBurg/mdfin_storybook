@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+.Counter_container__s0ThT {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2.5em 1em;
+  -moz-column-gap: 9em;
+       column-gap: 9em;
+}
+@media only screen and (max-width: 768px) {
+  .Counter_container__s0ThT {
+    flex-direction: column;
+    padding: 1.55em 1em;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+}
+
+.Counter_title__SRhdH {
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #373742;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.Counter_subTitle__dExXe {
+  font-size: 1.25em;
+  color: #707070;
+  padding-top: 0.75em;
+  text-align: center;
+}
+
+.Counter_value__ONvYM {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: #373742;
+}
+/*# sourceMappingURL=Counter.css.map */

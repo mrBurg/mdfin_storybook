@@ -1,0 +1,30 @@
+.SimpleButton_simpleButton__aediT {
+  padding: 0.5em;
+  border-radius: 0.3em;
+  border: 0;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.SimpleButton_simpleButton__aediT:disabled {
+  cursor: auto;
+}
+
+.SimpleButton_submit__qEHqm {
+  color: #ffffff;
+  background-color: #2a70c8;
+}
+.SimpleButton_submit__qEHqm:not(:disabled):hover {
+  background-color: #1256aa;
+}
+.SimpleButton_submit__qEHqm:disabled {
+  background-color: #8bb5eb;
+}
+
+.SimpleButton_button__T-uRi:not(:disabled):hover {
+  background-color: #040404;
+  color: #ffffff;
+}
+.SimpleButton_button__T-uRi:disabled {
+  background-color: #f6f7fb;
+}
+/*# sourceMappingURL=SimpleButton.css.map */

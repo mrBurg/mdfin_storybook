@@ -1,0 +1,45 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.wrap {
+  font-family: Raleway;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+
+  @media only screen and (max-width: $mob) {
+    padding: 3.5em 0;
+  }
+
+  &Background {
+    background-image: url(/images/pinkWithColorsBackground.svg);
+  }
+
+  .container {
+    width: 100%;
+    max-width: $lg;
+    margin: auto;
+
+    @media only screen and (max-width: $medium) {
+      padding: 0 5em;
+      padding: 0 1.5em;
+    }
+  }
+
+  .title {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: $violet-dark;
+    text-transform: uppercase;
+    text-align: center;
+
+    @media only screen and (max-width: $tab) {
+      font-size: 2em;
+    }
+
+    @media only screen and (max-width: $small) {
+      font-size: 1.7em;
+    }
+  }
+}

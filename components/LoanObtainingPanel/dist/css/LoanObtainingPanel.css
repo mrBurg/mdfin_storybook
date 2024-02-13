@@ -1,0 +1,50 @@
+.LoanObtainingPanel_loanObtaining__86BK6 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(4, 4, 4, 0.3);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: none;
+  max-height: 0;
+  transition: all 0.2s;
+}
+.LoanObtainingPanel_loanObtainingHolder__hOWt7 {
+  padding: 1em;
+}
+.LoanObtainingPanel_loanObtaining__86BK6.LoanObtainingPanel_show__QZtSz {
+  display: block;
+}
+.LoanObtainingPanel_loanObtaining__86BK6.slideUp {
+  max-height: 5em;
+}
+.LoanObtainingPanel_loanObtaining__86BK6 .LoanObtainingPanel_loanObtainingButton__JuCn3 {
+  border: 1.5px solid #707070;
+  background: linear-gradient(#ffffff, #c3c3c3 45%, #a8a8a8 55%, #b5b5b5);
+  border-radius: 0.2em;
+  cursor: pointer;
+  color: #373742;
+  padding: 0.3em 1em;
+  font-size: 1.5em;
+  width: auto;
+  margin: auto;
+  width: 100%;
+  max-width: 17.5em;
+}
+@media only screen and (min-width: 768px) and (max-width: getSize(lg)) {
+  .LoanObtainingPanel_loanObtaining__86BK6 .LoanObtainingPanel_loanObtainingButton__JuCn3 {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: getSize(md)) {
+  .LoanObtainingPanel_loanObtaining__86BK6 .LoanObtainingPanel_loanObtainingButton__JuCn3 {
+    width: 100%;
+    max-width: auto;
+  }
+}
+.LoanObtainingPanel_loanObtaining__86BK6 .LoanObtainingPanel_loanObtainingButton__JuCn3:hover:not(:disabled) {
+  color: #373742;
+  background: linear-gradient(#d9d9d9, #9d9d9d 45%, #828282 55%, #8f8f8f);
+}
+/*# sourceMappingURL=LoanObtainingPanel.css.map */

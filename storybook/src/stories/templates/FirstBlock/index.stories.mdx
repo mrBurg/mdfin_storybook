@@ -1,0 +1,29 @@
+import { Meta, Canvas } from '@storybook/addon-docs';
+
+import scss from './FirstBlock.module.scss';
+
+import { args } from '../../organisms/Header/props';
+
+import { Header } from 'mdfin-header';
+import { SimpleLink, SimpleLinkTypes } from 'mdfin-simple-link';
+
+<Meta title={'templates/FirstBlock'} />
+
+# FirstBlock
+
+<div className="description">This is the description of the component.</div>
+
+<Canvas>
+  <div className={scss.wrap}>
+    <Header {...args} />
+    <h2 className={scss.titleBig}>Do business, not document investigations</h2>
+    <h3 className={scss.subTitle}>
+      Find your safe ground in the world of KYC
+      <br />
+      with the RecognID all-in-one product.
+    </h3>
+    <SimpleLink type={SimpleLinkTypes.INLINE_BLOCK} className={scss.button}>
+      Get in touch
+    </SimpleLink>
+  </div>
+</Canvas>

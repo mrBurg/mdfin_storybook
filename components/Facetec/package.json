@@ -1,0 +1,68 @@
+{
+  "name": "mdfin-facetec",
+  "version": "1.0.0",
+  "description": "MDFin FaceTec",
+  "main": "dist/index.umd.min.js",
+  "module": "dist/index.es.js",
+  "types": "@types",
+  "style": "dist/css/----.module.css",
+  "publishConfig": {
+    "cache": "cache/.npm",
+    "registry": "http://ec2-3-123-8-188.eu-central-1.compute.amazonaws.com:808/repository/npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.finmdtest.com:180/creditsystem/core/creditsystem.core.front.git"
+  },
+  "author": "MDFin",
+  "license": "UNLICENSED",
+  "files": [
+    "@types",
+    "assets",
+    "dist",
+    "src",
+    "package.json",
+    "postcss.config.js",
+    "README.md",
+    "tsconfig.json",
+    "yarn.lock"
+  ],
+  "scripts": {
+    "npm:upgrade": "npx npm-check-updates -u",
+    "npm:publish": "npm publish",
+    "npm:pack": "npm pack",
+    "npm:link": "npm link",
+    "npm:unlink": "npm unlink",
+    "jest:test": "jest --config jestconfig.json",
+    "rollup": "rollup -c",
+    ":init:dependencies": "echo \"No need to install dependencies\"",
+    ":init": "yarn :init:dependencies & yarn npm:upgrade & yarn & yarn rollup"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@types/jest": "^29.0.2",
+    "@types/lodash": "^4.14.185",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "autoprefixer": "^10.4.11",
+    "node-sass": "^7.0.3",
+    "postcss": "^8.4.16",
+    "rollup": "^2.79.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.0",
+    "sass": "^1.54.9",
+    "ts-jest": "^29.0.1",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "classnames": "^2.3.2",
+    "lodash": "^4.17.21",
+    "mdfin-theme": "link:../Theme",
+    "next": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

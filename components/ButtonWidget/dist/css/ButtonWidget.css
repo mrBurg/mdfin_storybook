@@ -1,0 +1,46 @@
+.ButtonWidget_buttonWidget__bU0aR {
+  transition: all 0.2s;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #707070;
+  box-shadow: none;
+  color: #373742;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 0.3em 1em;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  zoom: 1;
+}
+.ButtonWidget_buttonWidget__bU0aR:hover:not(:disabled) {
+  background: #373742;
+  color: #ffffff;
+}
+.ButtonWidget_buttonWidget__bU0aR:disabled {
+  opacity: 0.5;
+  cursor: auto;
+  background: #373742;
+  color: #ffffff;
+}
+.ButtonWidget_buttonWidgetInline__bFy-q {
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  color: inherit;
+  border-radius: inherit;
+}
+.ButtonWidget_buttonWidgetInline__bFy-q:hover:not(:disabled) {
+  background-color: transparent;
+}
+.ButtonWidget_buttonWidgetInline__bFy-q:disabled {
+  opacity: 0.5;
+  cursor: auto;
+  background-color: transparent;
+}
+/*# sourceMappingURL=ButtonWidget.css.map */

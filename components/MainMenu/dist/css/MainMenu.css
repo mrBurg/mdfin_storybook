@@ -1,0 +1,66 @@
+.MainMenu_mainMenu__79-Oe {
+  font-size: 1em;
+  background-color: #2c3e50;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_button__dJ5yW {
+  background: none;
+  border: none;
+  border-radius: 3px;
+  padding: 0;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_buttonHolder__En8JF {
+  padding: 1.25em;
+  display: flex;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_buttonHolderleft__UHnJe {
+  justify-content: flex-start;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_buttonHolderright__DYW4Q {
+  justify-content: flex-end;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_button__dJ5yW svg {
+  vertical-align: middle;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_button__dJ5yW .hamburger_svg__square,
+.MainMenu_mainMenu__79-Oe .MainMenu_button__dJ5yW .hamburger_svg__border {
+  transition: all 0.2s;
+  fill: #2c3e50;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_button__dJ5yW .hamburger_svg__border {
+  fill: #1b242f;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_button__dJ5yW:hover .hamburger_svg__square {
+  fill: #1b242f;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_nav__4a-6Z {
+  background-color: #2c3e50;
+  display: flex;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_navDevice__vtNY5 {
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_navleft__iALAs {
+  justify-content: flex-start;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_navright__Zdtew {
+  justify-content: flex-end;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_link__rP6j5 {
+  padding: 1.25em;
+  text-decoration: none;
+  color: #ffffff;
+  display: inline-block;
+  border: 1px solid transparent;
+  line-height: 2.125em;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_link__rP6j5:hover {
+  color: #2d9031;
+  background-color: #1b242f;
+}
+.MainMenu_mainMenu__79-Oe .MainMenu_link__rP6j5:active {
+  border-color: #2d9031;
+}
+/*# sourceMappingURL=MainMenu.css.map */

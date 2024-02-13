@@ -1,0 +1,100 @@
+.InputWidget_inputWidget__fk4hp {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 58px;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_input__1jvHY {
+  box-sizing: border-box;
+  color: #040404;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #a8a8a8;
+  text-align: left;
+  border-radius: 10px;
+  padding: 0.75em 1.13em;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_input__1jvHY:disabled {
+  background: #f6f7fb;
+  border: 1px solid #f6f7fb;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_input__1jvHY.InputWidget_error__UtZlF, .InputWidget_inputWidget__fk4hp .InputWidget_input__1jvHY.InputWidget_error__UtZlF:disabled {
+  border-color: #ed1b22;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_input__1jvHY:focus {
+  color: #040404;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_input__1jvHY:focus ~ .InputWidget_label__ZYS-I {
+  top: 10%;
+  font-size: 0.75em;
+  color: #707070;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_currency__KlXwA {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 0.5em;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_label__ZYS-I {
+  color: #707070;
+  top: 30%;
+  left: 0;
+  position: absolute;
+  transition: all 0.2s;
+  pointer-events: none;
+  font-size: 1em;
+  margin-left: 1.67em;
+  font-size: 1em;
+}
+.InputWidget_inputWidget__fk4hp .InputWidget_label__ZYS-I.InputWidget_notEmpty__ZeVH1 {
+  top: 10%;
+  font-size: 0.75em;
+  color: #707070;
+  /* @include respond(xs) {
+    margin-left: 1.67em;
+  } */
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr.InputWidget_placeholder__oPRa- {
+  padding-top: 0.85em;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_input__1jvHY {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #e1e1e1;
+  padding: 0.75em 0;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_input__1jvHY:focus {
+  color: #373742;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_input__1jvHY:focus ~ .InputWidget_label__ZYS-I {
+  top: 0;
+  color: #65a1ee;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_input__1jvHY:focus ~ .InputWidget_hr__Z0SCY {
+  transform: scaleX(1);
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_label__ZYS-I {
+  color: #373742;
+  top: calc(50% - 0.2em);
+  margin-left: 0;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_label__ZYS-I.InputWidget_notEmpty__ZeVH1 {
+  top: 0;
+  color: #65a1ee;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_hr__Z0SCY {
+  position: absolute;
+  bottom: 0;
+  transition: transform 0.2s;
+  transform: scaleX(0);
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #65a1ee;
+  display: block;
+}
+.InputWidget_inputWidget__fk4hp.InputWidget_soft__DXfyr .InputWidget_error__UtZlF {
+  color: #ed1b22;
+}
+/*# sourceMappingURL=InputWidget.css.map */

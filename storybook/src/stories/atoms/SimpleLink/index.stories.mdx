@@ -1,0 +1,23 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-simple-link/dist/css/SimpleLink.css';
+
+import { SimpleLink, SimpleLinkTypes } from 'mdfin-simple-link';
+
+import { storytitle, args } from './props';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Simple-Link
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/SimpleLink`
+
+<SimpleLink {...args} type={SimpleLinkTypes.INLINE} />
+
+[**component-driven**](/story/atoms-simplelink--primary-link)
+
+<SimpleLink {...args} />
+
+[**component-driven**](/story/atoms-simplelink--primary-button-link)

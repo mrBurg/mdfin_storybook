@@ -1,0 +1,36 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.sliderWidget {
+  font-size: 1em;
+
+  .output,
+  &Panel {
+    margin: 0 1em;
+  }
+
+  .output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &Text {
+      font-weight: bold;
+    }
+
+    &Result {
+      background-color: $white;
+      border-radius: 0.5em;
+      padding: 0.5em 1em;
+      gap: 0.5em;
+      display: flex;
+
+      &Sign {
+        color: lighten($black, 50%);
+      }
+
+      :global .sign {
+        color: lighten($black, 50%);
+      }
+    }
+  }
+}

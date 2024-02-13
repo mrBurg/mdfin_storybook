@@ -1,0 +1,28 @@
+button.LoanButton_loanButton__cXkym {
+  display: block;
+  font-weight: bold;
+  max-width: 320px;
+  box-shadow: 0.1em 0.1em 0.3em rgba(4, 4, 4, 0.3);
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+button.LoanButton_loanButton_fullcolor__vtkw6 {
+  border: 0.1em solid #dfa700;
+  color: #ffffff;
+  background: linear-gradient(#ffd174, #fec601 45%, #dfa700 55%, #fec601);
+}
+button.LoanButton_loanButton_fullcolor__vtkw6:hover:not(:disabled) {
+  background: linear-gradient(#ffc041, #ffc041 45%, #ac8100 55%, #cb9e01);
+}
+button.LoanButton_loanButton_square__lStWQ {
+  border-radius: 0;
+}
+button.LoanButton_loanButton_rounded__GMH7j {
+  border-radius: 6px;
+}
+button.LoanButton_loanButton_oval__-uWKK {
+  border-radius: 2em;
+}
+/*# sourceMappingURL=LoanButton.css.map */

@@ -1,0 +1,15 @@
+*.css
+*.scss
+*.svg
+*.png
+*.webp
+*.md
+*.mdx
+*.lock
+**/dist/*
+*.log
+**/fonts/*
+*.zip
+**/Facetec/assets/*
+**/Facetec/**/declarations
+**/Facetec/**/themes

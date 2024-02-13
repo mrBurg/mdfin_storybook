@@ -1,0 +1,21 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.disable {
+  pointer-events: none;
+  cursor: default;
+}
+
+.img {
+  height: 100%;
+}
+
+.logoText {
+  font-size: 26px;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 19.5px 15px;
+  color: $white;
+  background-color: $gray-dark;
+}

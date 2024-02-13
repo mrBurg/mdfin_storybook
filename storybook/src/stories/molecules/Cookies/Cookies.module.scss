@@ -1,0 +1,11 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.wrapper {
+  position: relative;
+  height: 50vh;
+  border: 1px solid $red;
+
+  .cookie {
+    position: absolute;
+  }
+}

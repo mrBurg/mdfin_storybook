@@ -1,0 +1,556 @@
+import { Meta } from '@storybook/addon-docs';
+
+import approach from './assets/parts/approach.png';
+
+<!-- import Code from './assets/code-brackets.svg'; -->
+<!-- import Colors from './assets/colors.svg'; -->
+<!-- import Comments from './assets/comments.svg'; -->
+<!-- import Direction from './assets/direction.svg'; -->
+<!-- import Flow from './assets/flow.svg'; -->
+<!-- import Plugin from './assets/plugin.svg'; -->
+<!-- import Repo from './assets/repo.svg'; -->
+<!-- import StackAlt from './assets/stackalt.svg'; -->
+
+<Meta title="Introduction" />
+
+<style>
+  {`
+  .imgContainer {
+    text-align: center;
+  }
+
+  .logo {
+    margin: auto;
+    display: block;
+  }
+
+  .todo {
+    color: red;
+  }
+  `}
+  >
+</style>
+
+<!-- # Welcome to Storybook -->
+
+<svg
+  className="logo"
+  width="270"
+  height="50"
+  viewBox="0 0 595 111"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g clipPath="url(#clip0_4_8)">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M83.4705 94.5739L109.259 94.5616C136.82 94.5475 152.552 76.6887 152.552 55.4943C152.552 34.1852 137.739 16.4271 109.49 16.4271H100.003C99.4905 16.4271 99.0521 16.6255 98.7127 17.0065C98.3742 17.3894 98.2309 17.8484 98.2941 18.3535L99.6527 29.3548C99.7592 30.2193 100.486 30.8627 101.36 30.8627H108.915C126.714 30.8627 135.787 40.9449 135.787 55.4943C135.787 69.0128 127.4 80.1204 108.915 80.1251L97.6378 80.1316C96.7629 80.1316 96.035 79.4901 95.9275 78.6237L88.4356 17.935C88.3271 17.0705 87.6002 16.4271 86.7271 16.4271H71.4952C70.7259 16.4271 70.0725 16.9087 69.8481 17.6443L58.9666 53.3186C57.7031 57.4425 55.8655 63.4008 54.8321 67.6376H54.373C53.3396 63.4008 51.617 57.6701 50.2395 53.3186L39.1317 17.6349C38.9054 16.9049 38.2539 16.4271 37.4883 16.4271H22.1423C21.2664 16.4271 20.5357 17.0724 20.4329 17.9415L11.5399 92.6408C11.4805 93.145 11.6238 93.604 11.9632 93.9841C12.3017 94.366 12.7402 94.5616 13.2502 94.5616H24.5721C25.4584 94.5616 26.1928 93.8994 26.2833 93.0199L30.1443 55.4943C30.6045 50.4532 31.1777 44.1535 31.4059 38.9977H32.3252C33.4726 44.8412 35.3112 50.7975 36.8047 55.7229L48.036 93.335C48.2566 94.0734 48.9119 94.5616 49.6851 94.5616H58.6007C59.3739 94.5616 60.0301 94.0734 60.2498 93.3331L71.2539 56.2958C72.8605 50.9114 74.5831 44.0378 75.9606 38.9977H76.6508C76.9949 43.5788 77.6832 51.0271 78.2584 56.1829L82.0477 94.5616H83.4695L83.4705 94.5739ZM10.5829 0.539948H153.495C158.97 0.539948 163.45 5.01004 163.45 10.4726V100.53C163.45 105.993 158.97 110.461 153.495 110.461H10.5829C5.10961 110.461 0.62915 105.993 0.62915 100.53V10.4726C0.62915 5.01004 5.10961 0.539948 10.5829 0.539948Z"
+      fill="#00AEEF"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M232.883 16.4271H189.475C188.526 16.4271 187.753 17.1984 187.753 18.1438V92.844C187.753 93.7894 188.526 94.5607 189.475 94.5607H202.454C203.402 94.5607 204.175 93.7894 204.175 92.844V64.6584C204.175 63.713 204.948 62.9408 205.896 62.9408H231.736C232.683 62.9408 233.457 62.1694 233.457 61.2231V51.139C233.457 50.1936 232.683 49.4223 231.736 49.4223H205.896C204.948 49.4223 204.175 48.6509 204.175 47.7055V32.3508C204.175 31.4055 204.948 30.6341 205.896 30.6341H232.883C233.831 30.6341 234.604 29.8627 234.604 28.9164V18.1438C234.604 17.1984 233.831 16.4271 232.883 16.4271Z"
+      fill="#002E6A"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M247.81 31.2061H260.674C261.621 31.2061 262.395 30.4347 262.395 29.4884V18.1438C262.395 17.1984 261.621 16.4271 260.674 16.4271H247.81C246.862 16.4271 246.089 17.1984 246.089 18.1438V29.4884C246.089 30.4347 246.862 31.2061 247.81 31.2061Z"
+      fill="#00AEEF"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M248.154 94.5616H260.214C261.161 94.5616 261.934 93.7903 261.934 92.8449V41.4021C261.934 40.4567 261.161 39.6853 260.214 39.6853H248.154C247.206 39.6853 246.433 40.4567 246.433 41.4021V92.8449C246.433 93.7903 247.206 94.5616 248.154 94.5616Z"
+      fill="#002E6A"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M277.894 94.5616H289.954C290.902 94.5616 291.675 93.7903 291.675 92.8449V65.5765C291.675 56.4115 296.615 51.599 303.388 51.599C309.821 51.599 313.723 55.8386 313.723 64.0874V92.8449C313.723 93.7903 314.496 94.5616 315.444 94.5616H327.505C328.454 94.5616 329.226 93.7903 329.226 92.8449V63.0565C329.226 46.2155 320.612 37.9667 308.211 37.9667C301.897 37.9667 295.695 40.4868 291.907 46.5598H291.447V41.4021C291.447 40.4567 290.674 39.6853 289.725 39.6853H277.894C276.947 39.6853 276.174 40.4567 276.174 41.4021V92.8449C276.174 93.7903 276.947 94.5616 277.894 94.5616Z"
+      fill="#002E6A"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M354.949 67.1804C354.949 59.2749 359.542 51.3704 369.188 51.3704C376.883 51.3704 382.853 57.6701 382.853 67.2942C382.853 76.5731 376.423 82.9894 369.073 82.9894C359.429 82.9894 354.949 75.1997 354.949 67.1804ZM395.832 39.6844H384.346C383.397 39.6844 382.624 40.4557 382.624 41.4021V46.7874H382.164C379.179 42.434 374.012 38.1943 365.4 38.1943C351.391 38.1943 339.218 49.4213 339.218 67.0647C339.218 87.8019 353.571 96.3941 364.25 96.3941C373.207 96.3941 378.606 92.384 382.164 87.6872H382.624V92.844C382.624 93.7903 383.397 94.5616 384.346 94.5616H395.832C396.778 94.5616 397.553 93.7903 397.553 92.844V41.4021C397.553 40.4557 396.778 39.6844 395.832 39.6844Z"
+      fill="#002E6A"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M413.741 94.5616H425.801C426.751 94.5616 427.522 93.7903 427.522 92.8449V65.5765C427.522 56.4115 432.462 51.599 439.235 51.599C445.668 51.599 449.57 55.8386 449.57 64.0874V92.8449C449.57 93.7903 450.343 94.5616 451.291 94.5616H463.352C464.301 94.5616 465.073 93.7903 465.073 92.8449V63.0565C465.073 46.2155 456.459 37.9667 444.058 37.9667C437.744 37.9667 431.542 40.4868 427.754 46.5598H427.294V41.4021C427.294 40.4567 426.521 39.6853 425.572 39.6853H413.741C412.794 39.6853 412.02 40.4567 412.02 41.4021V92.8449C412.02 93.7903 412.794 94.5616 413.741 94.5616Z"
+      fill="#002E6A"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M504.344 37.852C486.202 37.852 475.063 50.9123 475.063 66.9499C475.063 84.9385 488.153 96.5089 504.46 96.5089C518.791 96.5089 527.047 88.2582 530.616 78.0565C530.807 77.5147 530.728 76.9653 530.396 76.4959C530.061 76.0265 529.566 75.7725 528.992 75.7725H516.743C516.058 75.7725 515.472 76.146 515.182 76.7659C513.512 80.3499 510.161 83.3356 504.689 83.3356C495.847 83.3356 490.795 76.1169 490.795 67.0656C490.795 57.4416 495.847 50.9123 504.229 50.9123C509.286 50.9123 512.892 53.2273 514.518 56.8809C514.8 57.5159 515.396 57.9006 516.091 57.9006H528.108C528.672 57.9006 529.152 57.6588 529.49 57.2092C529.826 56.7605 529.918 56.23 529.759 55.6928C527.18 47.0762 518.828 37.852 504.344 37.852Z"
+      fill="#002E6A"
+    ></path>
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M566.239 48.6208C572.641 48.6208 577.247 52.7485 578.698 58.1443C578.841 58.6776 578.736 59.195 578.401 59.6343C578.064 60.0717 577.588 60.3069 577.035 60.3069H555.425C554.875 60.3069 554.4 60.0736 554.064 59.638C553.726 59.2044 553.62 58.687 553.759 58.1555C555.119 52.9696 559.567 48.6208 566.239 48.6208ZM566.355 37.852C548.44 37.852 538.106 51.0261 538.106 66.7223C538.106 84.5933 550.968 96.5079 567.388 96.5079C580.554 96.5079 588.492 89.8677 592.496 81.681C592.763 81.1316 592.731 80.5352 592.408 80.0178C592.084 79.5014 591.56 79.2089 590.946 79.2089H579.41C578.853 79.2089 578.374 79.4478 578.039 79.889C575.643 83.0346 572.224 84.9385 567.504 84.9385C560.382 84.9385 554.406 79.5061 553.41 72.816C553.333 72.3043 553.471 71.833 553.808 71.4417C554.148 71.0503 554.595 70.8462 555.112 70.8462H592.599C593.506 70.8462 594.258 70.1464 594.316 69.2405C594.374 68.3562 594.374 67.5162 594.374 66.7223C594.374 51.3704 584.496 37.852 566.355 37.852Z"
+      fill="#002E6A"
+    ></path>
+  </g>
+  <defs>
+    <clipPath id="clip0_4_8">
+      <rect
+        width="594"
+        height="111"
+        fill="white"
+        transform="translate(0.5)"
+      ></rect>
+    </clipPath>
+  </defs>
+</svg>
+
+# Добро пожаловать в Storybook [MDFin](https://www.mdfin.com/)
+
+При создании структуры папок для **Story** необходимо изпользовать [Атомный подход](https://codeburst.io/atomic-design-with-react-e7aea8152957) <!-- https://medium.com/%D0%B0%D1%82%D0%BE%D0%BC%D0%B0%D1%80%D0%BD%D1%8B%D0%B9-%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD/atomic-design-part-2-1-eab69ea66560 -->
+
+> [Атомы](/story/atoms-introduction--page) -> [Молекулы](/story/molecules-introduction--page) -> [Организмы](/story/organisms-introduction--page) -> [Шаблоны](/story/templates-introduction--page) -> [Страницы](/story/pages-introduction--page)
+
+<div class="imgContainer">
+  <img src={approach} />
+</div>
+
+## Создание нового компонента
+
+- **[package]** - имя группы пакетов _( mdfin )_
+- **[registration-name]** - регистрационное имя пакета
+- **[component-name]** - имя компонента
+- **[component-style-name]** - имя стиля компонента
+
+В каталоге **components/\_autoCreator** необходимо выполнить шаги
+
+1. в каталоге командой `npm i` установить все необходимые компоненты _(при необходимости)_
+
+2. выполнить команду `npm run create-component [registration-name]` или `npm run create-component [package] [registration-name]` для создания нового компонента
+3. перейти в каталог компонента и установить все зависимости командой `npm run npm-init`
+4. сделать сборку компонента `npm run rollup`
+
+> Если не передать **[package]** то автоматически будет дописан префикс **mdfin** _( mdfin-[package-name] )_.
+
+Утилита создаст минимальный список файлов в каталоге **components/[component-name]**, а также добавит зависимости `[registration-name]: link:../components/[component-name]` в **package.json** в корне проекта **storybook**.
+
+## !!! ВАЖНО !!!
+
+- после добавления новгого компонента обязательно в корне проекта **storybook** удалить файл **package-lock.json** и выполнить команду `npm run npm-init`
+
+#### Минимальный список файлов
+
+- src/@types/index.d.ts
+
+```ts
+import { ReactElement } from "react";
+
+export { $[component-name] } from '..';
+
+declare module '$[registration-name]' {
+  export function $[component-name](): ReactElement;
+}
+```
+
+- src/@types/style.d.ts
+
+```ts
+declare module '*.scss' {
+  const scssContent: Record<string, string>;
+
+  export default scssContent;
+}
+
+declare module '*.module.scss' {
+  const scssModuleContent: Record<string, string>;
+
+  export default scssModuleContent;
+}
+```
+
+- src/scripts/index.tsx
+
+```ts
+import React from 'react';
+
+import scss from './../scss/$[component-name].scss';
+
+function $[component-name]() {
+  return (
+    <div className={scss.$[component-style-name]}>
+      $[component-name]
+    </div>
+  );
+}
+
+export { $[component-name] };
+```
+
+- src/scss/$[component-name].scss
+
+```scss
+.$[component-style-name] {
+  font-size: 1em;
+}
+```
+
+- src/index.ts
+
+```ts
+export { $[component-name] } from './scripts';
+```
+
+- .gitignore
+
+```text
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+cache
+
+# misc
+.DS_Store
+*.code-workspace
+.idea/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+```
+
+- jestconfig.json
+
+<!-- [^1]: jestconfig.json -->
+
+```json
+{
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+}
+```
+
+- package.json
+
+```json
+{
+  "name": "[registration-name]",
+  "version": "[version]" // 1.0.0,
+  "description": "[component-name]",
+  "main": "dist/index.umd.min.js", // main umd component dist
+  "module": "dist/index.es.js", // main es component dist
+  "types": "@types", // types
+  "style": "dist/css/[component-name].module.css", // component styles dist
+  // Publishing config
+  "publishConfig": {
+    "cache": "cache/.npm",
+    "registry": "http://3.127.182.171:808/repository/npm"
+  },
+  // Repository config
+  "repository": {
+    "type": "git",
+    "url": "http://git.finmdtest.com:180/creditsystem/core/creditsystem.core.front.git"
+  },
+  "author": "$[package]",
+  "license": "UNLICENSED",
+  // List of component folders and files
+  "files": [
+    "@types",
+    "assets",
+    "dist",
+    "src",
+    ".gitignore",
+    "jestconfig.json",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js",
+    "README.md",
+    "rollup.config.mjs",
+    "tsconfig.json"
+  ],
+  // Run scripts
+  "scripts": {
+    "npm-init": "npm i --legacy-peer-deps",
+    "npm-upgrade": "npx npm-check-updates -u",
+    "npm-publish": "npm run rollup & npm publish",
+    "jest-test": "jest --config jestconfig.json",
+    "rollup": "rollup -c"
+  },
+  // Component dev dependencies
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@rollup/plugin-babel": "latest",
+    "@types/autoprefixer": "latest",
+    "@types/jest": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "babel": "latest",
+    "node-sass": "latest",
+    "postcss": "latest",
+    "rollup": "latest",
+    "rollup-plugin-copy": "latest",
+    "rollup-plugin-peer-deps-external": "latest",
+    "rollup-plugin-postcss-modules": "latest",
+    "rollup-plugin-terser": "latest",
+    "rollup-plugin-typescript2": "latest",
+    "sass": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  },
+  // Component dependencies
+  "dependencies": {
+    "classnames": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
+```
+
+- postcss.config.js
+
+```js
+module.exports = {
+  plugins: [],
+};
+```
+
+- README.md
+
+```md
+# $[component]
+
+Component [storage](http://3.127.182.171:808/#browse/welcome)
+
+## Description
+
+$[package] $[component] component
+
+# Install
+
+For install `npm run npm-init $[repository]/$[registration-name]/-/$[registration-name]-$[version].tgz`
+```
+
+- rollup.config.mjs
+
+```js
+import typescript from 'rollup-plugin-typescript2';
+import postcss from 'rollup-plugin-postcss-modules';
+import { terser } from 'rollup-plugin-terser';
+import autoprefixer from 'autoprefixer';
+import copy from 'rollup-plugin-copy';
+import babel from '@rollup/plugin-babel';
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
+
+const globals = { react: 'React', classnames: 'classNames' };
+const external = ['react', 'react-dom', 'classnames'];
+const input = 'src/index.ts';
+const globalPlugins = [
+  peerDepsExternal(),
+  babel({ exclude: 'node_modules/**', babelHelpers: 'runtime' }),
+  typescript(),
+];
+const name = '[component-name]';
+
+export default [
+  // For ES module
+  {
+    input,
+    external,
+    output: {
+      globals,
+      file: 'dist/index.es.js',
+      format: 'es',
+    },
+    plugins: [
+      ...globalPlugins,
+      postcss({
+        use: ['sass'],
+        extract: `css/${name}.css`,
+        modules: true,
+        sourceMap: true,
+        plugins: [autoprefixer()],
+      }),
+      copy({
+        targets: [
+          {
+            src: 'src/@types',
+            dest: './',
+          },
+          {
+            src: `src/scss/${name}.scss`,
+            dest: './dist/scss',
+            rename: `${name}.module.scss`,
+          },
+          {
+            src: ['src/scss/*', `!**/${name}.scss`],
+            dest: './dist/scss',
+          },
+        ],
+      }),
+    ],
+  },
+  // For UMD module
+  {
+    input,
+    external,
+    output: {
+      name,
+      globals,
+      file: 'dist/index.umd.min.js',
+      format: 'umd',
+    },
+    plugins: [
+      ...globalPlugins,
+      postcss({
+        use: ['sass'],
+        sourceMap: true,
+        plugins: [autoprefixer()],
+      }),
+      terser(),
+    ],
+  },
+];
+```
+
+- tsconfig.json
+
+```json
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "removeComments": true,
+    "rootDir": "./",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["dist"],
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
+```
+
+#### Папки с ресурсами для разработки
+
+- assets
+- src
+
+#### Выходные папки
+
+- @types
+- dist
+
+#### Папка модулей
+
+- node_modules
+
+#### Папка кэша
+
+- cache
+
+## Создание компонента из существующего
+
+1. скопировать каталог и задать новое имя
+
+   - перейти в каталог компонента
+   - проверить ниличиие обновлений `npm run npm-upgrade`
+   - удалить файл **package-lock.json**
+   - установить зависимости `npm run npm-init`
+
+2. изменить название компонента и регистрационное имя в файлах, при необходимости имя пакета
+   - package.json
+   - README.md
+   - rollup.config.js
+3. сделать сборку компонента `npm run rollup`
+
+## Публикация пакета
+
+в каталоге компонента выполнить команду `npm publish` для публикации пакета в репозиторий
+
+> возможно попросит залогиниться в репозитории _(смотреть раздел **[Логин](http://localhost:6006/?path=/story/introduction--page#%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD)**)_
+
+## Установка компонента
+
+из корня проекта **storybook** добавить компонент в зависимости проекта `npm run npm-init http://3.127.182.171:808/repository/npm/[ссылка на компонент]`
+
+> возможно попросит залогиниться в репозитории _(смотреть раздел **[Логин](http://localhost:6006/?path=/story/introduction--page#%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD)**)_
+
+## !!! ВАЖНО !!!
+
+- после добавления новгого компонента обязательно в корне проекта **storybook** удалить файл **package-lock.json** и выполнить команду `npm run npm-init`
+
+## Логин
+
+1. для входа выполнить `npm login --registry=http://3.127.182.171:808/repository/npm`
+   <!-- `npm login --registry=%COMPONENTS_REGISTRY% --username=%WRITER% --password=%WRITER_PASS%` -->
+2. ввести свои реквизиты
+3. попытаться установить пакет еще раз
+
+## Доработка существующего компонента
+
+- перейти в каталог компонента
+- проверить ниличиие обновлений `npm run npm-upgrade`
+- удалить файл **package-lock.json**
+- установить зависимости `npm run npm-init`
+- в **package-lock.json** изменить версию пакета в зависимости от **[изменений](https://docs.npmjs.com/about-semantic-versioning)**
+
+## Установка компонента как зависимость
+
+- Из корня компонента **[component-name]** выполнить команду `npm run npm-init http://3.127.182.171:808/repository/npm/[ссылка на компонент]`.
+  > возможно попросит залогиниться в репозитории _(смотреть раздел **[Логин](http://localhost:6006/?path=/story/introduction--page#%D0%BB%D0%BE%D0%B3%D0%B8%D0%BD)**)_
+
+## !!! ВАЖНО !!!
+
+- в зависимости добавляем пакеты которые опубликованы в репозитории
+
+## Очистка компонентов от старых версий пакетов
+
+- выполнить команду `npm run cleanup` в каталоге **components/\_autoCreator**
+
+> Команда удалит файлы каталоги сборки `@types`, `cache`, `dist` во всех установленных компонентах.
+
+- выполнить команду `npm run cleanup -- -n` в каталоге **components/\_autoCreator**
+  > удалит выше перечисленные ресурсы в компонентах, а также папку зависимостей `node_modules` _(долгая операция)_
+
+## Преоритеты компонентов
+
+1. **Утилиты**
+2. **[Темы](/story/themes-misc--page)**
+3. **[Компоненты высшего порядка](/story/hocs-introduction--page)** (hocs)
+4. **[Атомы](/story/atoms-introduction--page)**
+5. **[Виджеты](/story/widgets-introduction--page)**
+6. **[Молекулы](/story/molecules-introduction--page)**
+7. **[Организмы](/story/organisms-introduction--page)**
+8. **[Шаблоны](/story/templates-introduction--page)**
+9. **[Страницы](/story/pages-introduction--page)**
+
+> Порядок сортировки важных элементов определяется по регистрационному имени компонента в соответствии с регулярным выражением
+
+## Порядок сортировки
+
+1. **Утилиты** .+-utils$
+2. **Темы** .+-theme$
+3. **Компоненты высшего порядка** .+-with-.+
+4. **Атомы** .+-simple-.+
+5. **Виджеты** .+-widget$
+
+## !!! ВАЖНО !!!
+
+Пакет sass-loader в корне проекта **storybook** не обновлять выше `"sass-loader": "<11"`

@@ -1,0 +1,44 @@
+.Cookies_cookies__pg3tL {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  color: #ffffff;
+  background-color: rgba(4, 4, 4, 0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 640px) {
+  .Cookies_cookies__pg3tL {
+    flex-direction: column;
+  }
+}
+.Cookies_cookies__pg3tL .Cookies_link__VdhHB {
+  color: #ffffff;
+  text-decoration: underline;
+}
+.Cookies_cookies__pg3tL .Cookies_button__CsVzA {
+  border: 1.5px solid #707070;
+  background: linear-gradient(#ffffff, #c3c3c3 45%, #a8a8a8 55%, #b5b5b5);
+  border-radius: 0.2em;
+  box-shadow: 0.1em 0.1em 0.3em rgba(4, 4, 4, 0.3);
+  color: #373742;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 0.6em 2.5em;
+  margin-left: 0.5em;
+}
+.Cookies_cookies__pg3tL .Cookies_button__CsVzA:hover:not(:disabled) {
+  color: #373742;
+  background: linear-gradient(#d9d9d9, #9d9d9d 45%, #828282 55%, #8f8f8f);
+}
+@media only screen and (max-width: 640px) {
+  .Cookies_cookies__pg3tL .Cookies_button__CsVzA:hover:not(:disabled) {
+    margin-left: 0;
+    margin-top: 0.5em;
+  }
+}
+/*# sourceMappingURL=Cookies.css.map */

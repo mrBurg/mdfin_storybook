@@ -1,0 +1,24 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-loan-obtaining-panel/dist/css/LoanObtainingPanel.css';
+import scss from './LoanObtainingPanel.module.scss';
+
+import { storytitle, args } from './props';
+
+import { LoanObtainingPanel } from 'mdfin-loan-obtaining-panel';
+
+<Meta title={`${storytitle}/Description`} component={LoanObtainingPanel} />
+
+# LoanObtainingPanel
+
+<div className="description">
+  Renders a component with an additional borrow button
+</div>
+
+<div className={scss.wrapper}>
+  <LoanObtainingPanel {...args} className={scss.loanObtainingPanel} />
+</div>
+
+**Directory** `components/LoanObtainingPanel`
+
+[**component-driven**](/story/molecules-loanobtainingpanel--loan-obtaining-panel-component)

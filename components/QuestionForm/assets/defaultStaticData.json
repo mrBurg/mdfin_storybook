@@ -1,0 +1,34 @@
+{
+  "title": "Got a question?<br/>We are here to help",
+  "subtitle": "Feel free to send us your request on how RecognID could solve your business goals, and we’ll come back with a prompt reply. Complete the form below:",
+  "firstName": {
+    "placeholder": "First name*",
+    "id": "firstName"
+  },
+  "workEmail": {
+    "placeholder": "Work Email*",
+    "id": "workEmail"
+  },
+  "lastName": {
+    "placeholder": "Last name*",
+    "id": "lastName"
+  },
+  "companyName": {
+    "placeholder": "Company name*",
+    "id": "companyName"
+  },
+  "request": {
+    "placeholder": "Type your request",
+    "id": "request",
+    "size": "big"
+  },
+  "policyCheckboxText": "By sending this request I agree with the <a href=\"/docs/RecognID_Privacy_Policy_20220505.pdf\" target=\"_blank\">privacy policy</a> and ready to receive relevant information via email",
+  "validFormMessage": "Your request has been sent",
+  "validFormDescription": "Our team will contact you shortly",
+  "validButtonText": "Ok",
+  "invalidWorkEmailMessage": "Please enter a valid email",
+  "invalidPolicyCheckboxMessage": "You must agree Privacy Policy to proceed",
+  "invalidFormMessage": "Something went wrong",
+  "invalidFormDescription": "Please try again later",
+  "invalidButtonText": "Try again"
+}

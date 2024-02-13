@@ -1,0 +1,32 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import 'mdfin-button-widget/dist/css/ButtonWidget.css';
+import scss from './ButtonWidget.module.scss';
+
+import { storytitle, args } from './props';
+
+import { ButtonWidget, BUTTON_LAYOUT } from 'mdfin-button-widget';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Button-Widget
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/ButtonWidget`
+
+### Default Layout
+
+<div className={scss.container}>
+  <ButtonWidget {...args} />
+</div>
+
+[**component-driven**](/story/widgets-buttonwidget--button-default)
+
+### Soft Layout
+
+<div className={scss.container}>
+  <ButtonWidget {...args} layout={BUTTON_LAYOUT.INLINE} />
+</div>
+
+[**component-driven**](/story/widgets-buttonwidget--button-inline)

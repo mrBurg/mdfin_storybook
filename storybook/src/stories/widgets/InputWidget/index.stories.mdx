@@ -1,0 +1,33 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+import 'mdfin-input-widget/dist/css/InputWidget.css';
+import scss from './InputWidget.module.scss';
+
+import { InputWidget } from 'mdfin-input-widget';
+import { storytitle } from './props';
+
+import { InputDefault, InputSoft } from './index.stories.tsx';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Input-Widget
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/InputWidget`
+
+### Default Layout
+
+<div className={scss.container}>
+  <InputWidget {...InputDefault.args} />
+</div>
+
+[**component-driven**](/story/widgets-inputwidget--input-default)
+
+### Soft Layout
+
+<div className={scss.container}>
+  <InputWidget {...InputSoft.args} />
+</div>
+
+[**component-driven**](/story/widgets-inputwidget--input-soft)

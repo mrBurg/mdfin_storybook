@@ -1,0 +1,29 @@
+import { Meta } from '@storybook/addon-docs';
+
+import templates from './../assets/parts/templates.png';
+import templatesExample from './../assets/parts/templatesExample.png';
+
+<Meta title="templates/Introduction" />
+
+<style>
+  {`
+  .imgContainer {
+    text-align: center;
+  }
+  `}
+  >
+</style>
+
+# Templates
+
+На этой стадии мы больше не сочетаем компоненты и начинаем расставлять их. Более того, шаблоны тесно связаны между организмами и другими компонентами посредством позиций, контекста и структурой станиц, хотя и не имею какого-либо стиля, цвета или рендеринга компонентов. Поэтому они выглядят как проекции.
+
+<div class="imgContainer">
+  <img src={templates} />
+</div>
+
+Шаблоны — это объекты уровня страницы, которые объединяют компоненты в макет и формируют базовую структуру оформления содержимого. Давайте возьмем наш предыдущий пример с хедером, и используем его вместе с шаблоном домашней страницы.
+
+<div class="imgContainer">
+  <img src={templatesExample} />
+</div>

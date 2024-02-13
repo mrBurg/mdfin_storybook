@@ -1,0 +1,44 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-simple-button/dist/css/SimpleButton.css';
+import scss from './SimpleButton.module.scss';
+
+import { SimpleButton, BUTTON_TYPE } from 'mdfin-simple-button';
+
+import { storytitle, args } from './props';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Simple-Button
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/SimpleButton`
+
+<dl>
+  <dt>type="{BUTTON_TYPE.SUBMIT}"</dt>
+  <dd>
+    <SimpleButton {...args} />
+  </dd>
+  <dt>type="{BUTTON_TYPE.SUBMIT}" disabled="true"</dt>
+  <dd>
+    <SimpleButton {...args} disabled />
+  </dd>
+  <dt>
+    type="
+    {BUTTON_TYPE.BUTTON}"
+  </dt>
+  <dd>
+    <SimpleButton {...args} type={BUTTON_TYPE.BUTTON} />
+  </dd>
+  <dt>type="{BUTTON_TYPE.BUTTON}" disabled="true"</dt>
+  <dd>
+    <SimpleButton {...args} type={BUTTON_TYPE.BUTTON} disabled />
+  </dd>
+  <dt>type="{BUTTON_TYPE.BUTTON}" custom style</dt>
+  <dd>
+    <SimpleButton {...args} type={BUTTON_TYPE.BUTTON} className={scss.button} />
+  </dd>
+</dl>
+
+[**component-driven**](/story/atoms-simplebutton--primary-simple-button)

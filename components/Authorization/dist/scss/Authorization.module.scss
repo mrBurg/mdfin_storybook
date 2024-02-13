@@ -1,0 +1,52 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.authorization {
+  max-width: $xs;
+  background-color: $white;
+  border-radius: 0.5em;
+  // width: 100%;
+  // max-width: 500px; //$sm;
+  //margin-top: 2em;
+  // margin: 0 auto;
+  // text-align: center;
+
+  // @include respond(xs) {
+  //   margin-top: 3.31em;
+  // }
+
+  .checkbox {
+    display: flex;
+    margin-top: 1em;
+
+    :global .simple-checkbox {
+      display: flex;
+      gap: 0.5em;
+    }
+  }
+
+  .submit {
+    margin: 1em auto 0;
+    display: block;
+    background-color: $blue;
+    color: $white;
+    padding: 1em;
+
+    &:not(:disabled):hover {
+      background-color: $blue-dark;
+    }
+  }
+}
+
+// .fieldsContainer {
+//   width: 100%;
+//   max-width: 420px;
+//   margin: auto;
+//   // @include respond(xs) {
+//   //   width: 100%;
+//   // }
+// }
+
+// .error {
+//   // color: $red;
+//   border-color: $red;
+// }

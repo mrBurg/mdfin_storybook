@@ -1,0 +1,26 @@
+import { Meta, Canvas } from '@storybook/addon-docs';
+
+import scss from './TabsSwitcher.module.scss';
+
+import { args } from '../../organisms/TabsSwitcher/props';
+
+import { TabsSwitcher } from 'mdfin-tabs-switcher';
+
+<Meta title={'templates/TabsBlock'} />
+
+# TabsSwitcher
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/TabsSwitcher`
+
+<Canvas>
+  <div id="tabsblock" className={scss.wrap}>
+    <div className={scss.container}>
+      <h2 className={scss.titleBig}>Reliable solution for identity proofing</h2>
+      <TabsSwitcher {...args} />
+    </div>
+  </div>
+</Canvas>
+
+[**component-driven**](/story/organisms-tabsblock--primary-tabs-block)

@@ -1,0 +1,162 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.applicationInfo {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Calibri;
+
+  .title {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 0.7em;
+    color: $gray-dark;
+  }
+
+  .link {
+    color: $blue;
+    text-decoration: underline;
+  }
+
+  .separator {
+    display: none;
+    border-bottom: 1px solid $gray-light;
+    margin: 0.75em auto;
+  }
+
+  .accent {
+    font-weight: bold;
+  }
+
+  .datatable {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+    tbody {
+      font-size: 1em;
+
+      tr {
+        td {
+          &:first-child {
+            text-align: left;
+            padding: 0.5em 0.5em 0.5em 1em;
+
+            &::after {
+              content: ':';
+            }
+          }
+
+          &:last-child {
+            text-align: right;
+            padding: 0.5em 1em 0.5em 0.5em;
+          }
+        }
+      }
+    }
+  }
+
+  &.default {
+    .datatable {
+      background-color: $gray-misty;
+      border-radius: 10px;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+    }
+  }
+
+  &.shaded {
+    box-shadow: 3px 3px 3px transparentize($black, 0.8);
+    padding: 1em;
+
+    /* @include respond(960) {
+      max-width: 23.25em;
+      padding: 1.34em 1em;
+    } */
+
+    .title {
+      text-align: center;
+    }
+
+    .datatable {
+      padding: 2.68em 1em 1em;
+      font-weight: bold;
+
+      thead {
+        text-align: center;
+
+        td {
+          padding-bottom: 1.25em;
+        }
+      }
+
+      tbody {
+        font-size: 0.9em;
+
+        tr {
+          border-bottom: 1px solid $gray-light;
+
+          td {
+            padding: 0.8em 0.75em;
+
+            &:first-child {
+              color: $gray;
+              text-align: right;
+            }
+          }
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+
+    .link {
+      color: $red;
+    }
+  }
+
+  &.centered {
+    .title {
+      text-align: center;
+    }
+
+    .datatable {
+      padding: 2.68em 1em 1em;
+      font-weight: bold;
+
+      thead {
+        text-align: center;
+
+        td {
+          padding-bottom: 1.25em;
+        }
+      }
+
+      tbody {
+        font-size: 0.9em;
+
+        tr {
+          border-bottom: 1px solid $gray-light;
+
+          td {
+            padding: 0.8em 0.75em;
+
+            &:first-child {
+              color: $gray;
+              text-align: right;
+            }
+
+            &:last-child {
+              text-align: left;
+            }
+          }
+
+          &:last-child {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+}

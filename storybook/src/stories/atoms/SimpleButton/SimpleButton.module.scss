@@ -1,0 +1,9 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.button {
+  background-color: $orange;
+
+  &:not(:disabled):hover {
+    background-color: darken($orange, 10%);
+  }
+}

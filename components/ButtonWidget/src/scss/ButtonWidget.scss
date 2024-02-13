@@ -1,0 +1,52 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.buttonWidget {
+  transition: $transiton;
+  border-radius: 10px;
+  background: $white;
+  border: 1px solid $gray;
+  box-shadow: none;
+  color: $gray-dark;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 0.3em 1em;
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  zoom: 1;
+
+  &:hover:not(:disabled) {
+    background: $gray-dark;
+    color: $white;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: auto;
+    background: $gray-dark;
+    color: $white;
+  }
+
+  &Inline {
+    cursor: pointer;
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    border-radius: inherit;
+
+    &:hover:not(:disabled) {
+      background-color: transparent;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: auto;
+      background-color: transparent;
+    }
+  }
+}

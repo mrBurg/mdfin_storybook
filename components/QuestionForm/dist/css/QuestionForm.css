@@ -1,0 +1,144 @@
+.QuestionForm_questionInnerWrap__X2fJI {
+  font-family: Raleway;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  margin: 0 6.25em;
+  padding: 4em;
+  box-shadow: 0px 8px 24px rgba(74, 4, 67, 0.19);
+  border-radius: 12px;
+}
+@media only screen and (max-width: 880px) {
+  .QuestionForm_questionInnerWrap__X2fJI {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI {
+    padding: 1.5em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_sentFormTitle__SKcVM {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  color: #482c42;
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_sentFormTitle__SKcVM {
+    font-size: 1.75em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_title__FAIZl {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #482c42;
+  text-align: center;
+}
+@media only screen and (max-width: 880px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_title__FAIZl {
+    font-size: 2em;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_title__FAIZl {
+    font-size: 1.7em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_subtitle__WddAB {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  font-size: 0.88em;
+  color: #865e7e;
+  font-weight: 400;
+  margin: 2em auto 0;
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_form__RbGyM {
+  margin-top: 2.5em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5em;
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_form__RbGyM {
+    margin-top: 1.5em;
+    row-gap: 1em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_inputsBlock__Op3Kq {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  row-gap: 1.5em;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_inputsBlock__Op3Kq {
+    flex-direction: column;
+    row-gap: 1em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_submitForm__c06BF {
+  max-width: 45%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_submitForm__c06BF {
+    max-width: 100%;
+    row-gap: 1.5em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_buttonComponent__pWgia {
+  margin: auto 0 0;
+  background-color: #fec601;
+  color: #040404;
+  font-size: 0.875em;
+  font-weight: 700;
+  padding: 1em 0;
+  transition: all 0.3s linear;
+  box-shadow: 2px 4px 6px rgba(37, 48, 149, 0.25);
+  border: none;
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_buttonComponent__pWgia:active:not(:disabled), .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_buttonComponent__pWgia:hover:not(:disabled) {
+  color: #040404;
+  background-color: #dfa700;
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_message__9WGCD {
+  display: flex;
+  margin-top: 2em;
+  font-size: 1.5em;
+  justify-content: center;
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_message__9WGCD {
+    font-size: 1em;
+  }
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_submitImageWrap__MJYnt {
+  display: flex;
+  margin-top: 3.5em;
+  justify-content: center;
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_submitImage__zcnRj {
+  display: flex;
+  width: 63px;
+  height: 63px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_input__6mEHB,
+.QuestionForm_questionInnerWrap__X2fJI .QuestionForm_textField__mhpK9 {
+  max-width: 45%;
+  color: #482c42;
+}
+@media only screen and (max-width: 640px) {
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_input__6mEHB,
+  .QuestionForm_questionInnerWrap__X2fJI .QuestionForm_textField__mhpK9 {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=QuestionForm.css.map */

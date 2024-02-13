@@ -1,0 +1,21 @@
+import { Meta, Story } from '@storybook/addon-docs';
+
+<!-- import 'mdfin-input-widget/dist/css/InputWidget.module.css'; -->
+
+import scss from './SliderWidget.module.scss';
+
+import { SliderWidget } from 'mdfin-slider-widget';
+
+import { storytitle, args } from './props';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Slider-Widget
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/SliderWidget`
+
+<SliderWidget {...args} className={scss.sliderWidget} />
+
+[**component-driven**](/story/widgets-sliderwidget--primary-slider-widget)

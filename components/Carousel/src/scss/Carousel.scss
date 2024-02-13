@@ -1,0 +1,77 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+$slick-font-path: '/fonts/';
+$slick-font-family: '';
+$slick-loader-path: '/';
+
+:global {
+  @import '~slick-carousel/slick/slick.scss';
+  @import '~slick-carousel/slick/slick-theme.scss';
+
+  .slick {
+    &-slide {
+      display: block;
+      transition: all 0.2s;
+
+      .content-block {
+        padding: 2em;
+      }
+    }
+
+    &-list {
+      padding-top: 4em !important;
+      padding-bottom: 2em !important;
+    }
+
+    &-track {
+      display: flex;
+      align-items: center;
+    }
+
+    /* &-active {
+      opacity: 1;
+    } */
+
+    &-center {
+      transition: transform 0.2s;
+      transform: scale(1.2);
+      display: block;
+    }
+
+    &-arrow {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: $green-light url('/images/icons_48x48.svg');
+
+      &:hover,
+      &:focus {
+        background: $green-light url('/images/icons_48x48.svg');
+      }
+    }
+
+    &-prev {
+      left: -48px;
+    }
+
+    &-next {
+      right: -48px;
+      transform: scaleX(-1) translateY(-50%);
+    }
+
+    &-dots {
+      button {
+        &:before {
+          transition: all 0.2s;
+          border-radius: 50%;
+          background: $graphite-dark;
+        }
+      }
+    }
+  }
+}
+
+.carousel {
+  font-size: 1em;
+  padding: 3em;
+}

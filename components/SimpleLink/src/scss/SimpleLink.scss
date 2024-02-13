@@ -1,0 +1,35 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.simpleLink {
+  transition: all 0.2s;
+  font-size: 0.875em;
+  font-weight: 700;
+  color: $rose-dark;
+}
+
+.inlineBlock {
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  background-color: $yellow;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 2px 4px 6px rgba(37, 48, 149, 0.25);
+  cursor: pointer;
+  box-sizing: border-box;
+
+  &:focus,
+  &:hover,
+  &:active {
+    background-color: $yellow-dark;
+  }
+}
+
+.inline {
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

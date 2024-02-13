@@ -1,0 +1,25 @@
+import { Meta, Canvas } from '@storybook/addon-docs';
+import classNames from 'classnames';
+
+import scss from './Industries.module.scss';
+
+import { args } from './../../organisms/ContentSwitcher/props';
+import cfg from '../../../config.json';
+
+import { scssConstants } from 'mdfin-theme';
+import { ContentSwitcher } from 'mdfin-content-switcher';
+
+<Meta title={'templates/Industries'} />
+
+# Industries
+
+<div className="description">This is the description of the component.</div>
+
+<Canvas>
+  <div id="industries" className={scss.wrap}>
+    <div className={scss.container}>
+      <h2 className={scss.title}>Industries</h2>
+      <ContentSwitcher {...args} />
+    </div>
+  </div>
+</Canvas>

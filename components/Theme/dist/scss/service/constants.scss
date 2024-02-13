@@ -1,0 +1,138 @@
+$font-size: 16px;
+
+$prefixes: -webkit-, -moz-, -ms-, -o-;
+$transiton: all 0.2s;
+
+$xxs: 320px;
+$small: 360px;
+$xs: 480px;
+$mob: 560px;
+$sm: 640px;
+$md: 768px; // ^Device
+$tab: 880px;
+$lg: 960px;
+$medium: 1150px;
+$xl: 1200px;
+$xxl: 1440px;
+
+$black: #040404;
+$white: #ffffff;
+
+$gray-dark: #373742;
+$gray: #707070;
+$gray-light: #e1e1e1;
+$gray-misty: #f6f7fb;
+
+$orange-dark: #dfa700;
+$orange: #fec601;
+$orange-light: #ffd174;
+$orange-misty: #fff69e;
+
+$blue-dark: #1256aa;
+$blue: #2a70c8; //#3175c9;
+$blue-light: #65a1ee;
+$blue-misty: #8bb5eb;
+
+$indigo: #25025d;
+
+$green-dark: #2d9031;
+$green: #4caf50;
+$green-light: #6bce6f;
+$green-misty: #b3ebaa;
+
+$red-dark: #af0008;
+$red: #ed1b22;
+$red-light: #ed3046;
+$red-misty: #eb7678;
+
+$border: #a8a8a8;
+
+$yellow-dark: #eabe4f;
+$yellow: #fccc51;
+$yellow-misty: #fdfac8;
+
+$rose-dark: #50263a;
+$rose: #a8899d;
+$rose-light: #f5f0f9;
+$rose-misty: #eddbec;
+
+$pink: #bb5285;
+
+$violet-dark: #482c42;
+$violet: #6a385f;
+$violet-light: #865e7e;
+$violet-misty: #bebcdc;
+
+$graphite-dark: #1b242f;
+$graphite: #2c3e50;
+
+$border-radius: 3px;
+
+$box-shadow: 3px 3px 3px transparentize($black, 0.8);
+
+:export {
+  font-size: $font-size;
+
+  black: $black;
+  white: $white;
+
+  gray-dark: $gray-dark;
+  gray: $gray;
+  gray-light: $gray-light;
+  gray-misty: $gray-misty;
+
+  orange-dark: $orange-dark;
+  orange: $orange;
+  orange-light: $orange-light;
+  orange-misty: $orange-misty;
+
+  blue-dark: $blue-dark;
+  blue: $blue;
+  blue-light: $blue-light;
+  blue-misty: $blue-misty;
+
+  indigo: $indigo;
+
+  green-dark: $green-dark;
+  green: $green;
+  green-light: $green-light;
+  green-misty: $green-misty;
+
+  red-dark: $red-dark;
+  red: $red;
+  red-light: $red-light;
+  red-misty: $red-misty;
+
+  yellow-dark: $yellow-dark;
+  yellow: $yellow;
+  yellow-misty: $yellow-misty;
+
+  rose-dark: $rose-dark;
+  rose: $rose;
+  rose-light: $rose-light;
+  rose-misty: $rose-misty;
+
+  pink: $pink;
+
+  violet-dark: $violet-dark;
+  violet: $violet;
+  violet-light: $violet-light;
+  violet-misty: $violet-misty;
+
+  graphite-dark: $graphite-dark;
+  graphite: $graphite;
+
+  border: $border;
+
+  xxs: $xxs;
+  small: $small;
+  xs: $xs;
+  mob: $mob;
+  sm: $sm;
+  md: $md;
+  tab: $tab;
+  lg: $lg;
+  medium: $medium;
+  xl: $xl;
+  xxl: $xxl;
+}

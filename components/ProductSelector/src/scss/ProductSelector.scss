@@ -1,0 +1,42 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+@import '~mdfin-slider-widget/dist/css/SliderWidget.css';
+
+.productSelector {
+  max-width: $small;
+  background-color: $white;
+  border-radius: 1em;
+  overflow: hidden;
+
+  .slider {
+    background-color: $gray-misty;
+    padding: 1em 0.5em;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+
+    &Item {
+      :global .rc-slider-rail {
+        background-color: $white;
+      }
+    }
+  }
+
+  .button {
+    margin: auto;
+    display: block;
+    width: fit-content;
+
+    &Holder {
+      padding: 0.5em;
+
+      :global .simple-link {
+        color: $white;
+        background-color: darken($yellow, 20%);
+
+        &:hover {
+          background-color: darken($yellow-dark, 20%);
+        }
+      }
+    }
+  }
+}

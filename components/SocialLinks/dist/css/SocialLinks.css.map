@@ -1,0 +1,1 @@
+{"version":3,"sources":["SocialLinks.scss"],"names":[],"mappings":"AAAA;;EAEE,sBAAsB;AACxB","file":"css/SocialLinks.css","sourcesContent":[".socialLinks a,\n.socialLinks svg {\n  vertical-align: middle;\n}"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["LinkWidget.scss"],"names":[],"mappings":"AAAA;EACE,cAAc;AAChB","file":"css/LinkWidget.css","sourcesContent":[".linkWidget {\n  font-size: 1em;\n}"]}

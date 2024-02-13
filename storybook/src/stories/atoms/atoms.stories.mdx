@@ -1,0 +1,31 @@
+import { Meta } from '@storybook/addon-docs';
+
+import atoms from './../assets/parts/atoms.png';
+import atomsExample from './../assets/parts/atomsExample.png';
+
+<Meta title="atoms/Introduction" />
+
+<style>
+  {`
+  .imgContainer {
+    text-align: center;
+  }
+  `}
+  >
+</style>
+
+# Atoms
+
+Атомы — мельчайшие из всех возможных компонентов, таких как кнопки, заголовки, анимации, шрифты и т.п. Они применяются всюду: глобально или непосредственно внутри других компонентов и шаблонов, имея,кроме того, множество состояний. Например, кнопка может быть отключена, или на нее можно навести курсором.
+
+<div class="imgContainer">
+  <img src={atoms} />
+</div>
+
+К атомам интерфейсов относятся веб-формы, поля ввода, кнопки и
+другие базовые элементы HTML, которые нельзя разделить на более мелкие части, не
+потеряв при этом их функциональность.
+
+<div class="imgContainer">
+  <img src={atomsExample} />
+</div>

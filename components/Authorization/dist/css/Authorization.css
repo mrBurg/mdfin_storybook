@@ -1,0 +1,24 @@
+.Authorization_authorization__vuY-C {
+  max-width: 480px;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+}
+.Authorization_authorization__vuY-C .Authorization_checkbox__S70oj {
+  display: flex;
+  margin-top: 1em;
+}
+.Authorization_authorization__vuY-C .Authorization_checkbox__S70oj .simple-checkbox {
+  display: flex;
+  gap: 0.5em;
+}
+.Authorization_authorization__vuY-C .Authorization_submit__aNrGV {
+  margin: 1em auto 0;
+  display: block;
+  background-color: #2a70c8;
+  color: #ffffff;
+  padding: 1em;
+}
+.Authorization_authorization__vuY-C .Authorization_submit__aNrGV:not(:disabled):hover {
+  background-color: #1256aa;
+}
+/*# sourceMappingURL=Authorization.css.map */

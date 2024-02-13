@@ -1,0 +1,1 @@
+{"version":3,"sources":["Header.scss"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,8BAA8B;EAC9B,kBAAkB;EAClB,mBAAmB;AACrB;AACA;EACE,WAAW;AACb","file":"css/Header.css","sourcesContent":[".header {\n  display: flex;\n  justify-content: space-between;\n  position: relative;\n  align-items: center;\n}\n.header :global .main-menu {\n  width: 100%;\n}"]}

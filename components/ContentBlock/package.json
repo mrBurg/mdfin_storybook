@@ -1,0 +1,69 @@
+{
+  "name": "mdfin-content-block",
+  "version": "1.0.0",
+  "description": "mdfin ContentBlock",
+  "main": "dist/index.umd.min.js",
+  "module": "dist/index.es.js",
+  "types": "@types",
+  "style": "dist/css/ContentBlock.css",
+  "publishConfig": {
+    "cache": "cache/.npm",
+    "registry": "http://3.127.182.171:808/repository/npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.finmdtest.com/creditsystem/core/creditsystem.core.front"
+  },
+  "author": "mdfin",
+  "license": "UNLICENSED",
+  "files": [
+    "@types",
+    "assets",
+    "dist",
+    "src",
+    ".gitignore",
+    "jestconfig.json",
+    "package-lock.json",
+    "package.json",
+    "postcss.config.js",
+    "README.md",
+    "rollup.config.mjs",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "npm-init": "npm i --legacy-peer-deps",
+    "npm-upgrade": "npx npm-check-updates -u",
+    "npm-publish": "npm run rollup & npm publish",
+    "jest-test": "jest --config jestconfig.json",
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@rollup/plugin-babel": "latest",
+    "@rollup/plugin-json": "latest",
+    "@types/autoprefixer": "latest",
+    "@types/jest": "latest",
+    "@types/lodash": "^4.14.191",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "node-sass": "latest",
+    "postcss": "latest",
+    "rollup": "latest",
+    "rollup-plugin-copy": "latest",
+    "rollup-plugin-peer-deps-external": "latest",
+    "rollup-plugin-postcss-modules": "latest",
+    "rollup-plugin-terser": "latest",
+    "rollup-plugin-typescript2": "latest",
+    "sass": "latest",
+    "ts-jest": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "classnames": "latest",
+    "lodash": "^4.17.21",
+    "mdfin-button-widget": "http://3.127.182.171:808/repository/npm/mdfin-button-widget/-/mdfin-button-widget-1.0.0.tgz",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}

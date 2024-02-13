@@ -1,0 +1,25 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.footer {
+  font-size: 0.75em;
+}
+
+.item {
+  margin: 0.7em 0;
+  font-weight: 300;
+
+  &Title {
+    font-weight: bold;
+  }
+
+  &Text {
+    text-align: justify;
+
+    a {
+      color: $red;
+    }
+    a:hover {
+      color: $red-misty;
+    }
+  }
+}

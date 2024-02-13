@@ -1,0 +1,31 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-main-menu/dist/css/MainMenu.css';
+import scss from './MainMenu.module.scss';
+
+import { MainMenu, ALIGNMENT } from 'mdfin-main-menu';
+
+import { storytitle, args } from './props';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Simple-Button
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/MainMenu`
+
+### Device menu
+
+<MainMenu {...args} />
+
+### Desktop menu
+
+<MainMenu
+  {...args}
+  isDevice={true}
+  alignment={ALIGNMENT.RIGHT}
+  className={scss.mainMenu}
+/>
+
+[**component-driven**](/story/molecules-mainmenu--main-menu-component)

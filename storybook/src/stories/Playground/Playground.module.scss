@@ -1,0 +1,13 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.playground {
+  :global .playground {
+    font-size: $font-size;
+    color: $blue;
+    cursor: pointer;
+
+    &:hover {
+      color: darken($blue, 10%);
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.contentBlock {
+  max-width: 18.75em;
+  background: $green-misty;
+  background: linear-gradient(
+    89.66deg,
+    $green-misty 5.41%,
+    $green-light 94.22%
+  );
+  border-radius: 1.5em;
+  padding: 3em 2em;
+
+  .title {
+    margin: 0;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .button {
+    margin: auto;
+    display: block;
+    margin-top: 1em;
+    border-radius: 2em;
+    padding: 1em;
+  }
+}

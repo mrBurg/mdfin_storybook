@@ -1,0 +1,11 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.wrapper {
+  display: flex;
+  border: 1px solid $red;
+}
+
+// .decorator {
+// padding: 0 1em;
+// background: url(/images/firstBlock_bg.jpg) center / cover no-repeat;
+// }

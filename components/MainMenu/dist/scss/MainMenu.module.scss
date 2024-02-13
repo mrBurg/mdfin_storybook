@@ -1,0 +1,84 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.mainMenu {
+  font-size: 1em;
+  background-color: $graphite;
+
+  .button {
+    background: none;
+    border: none;
+    border-radius: 3px;
+    padding: 0;
+
+    &Holder {
+      padding: 1.25em;
+      display: flex;
+
+      &left {
+        justify-content: flex-start;
+      }
+
+      &right {
+        justify-content: flex-end;
+      }
+    }
+
+    svg {
+      vertical-align: middle;
+    }
+
+    :global .hamburger_svg__square,
+    :global .hamburger_svg__border {
+      transition: all 0.2s;
+      fill: $graphite;
+    }
+
+    :global .hamburger_svg__border {
+      fill: $graphite-dark;
+    }
+
+    &:hover {
+      :global .hamburger_svg__square {
+        fill: $graphite-dark;
+      }
+    }
+  }
+
+  .nav {
+    background-color: $graphite;
+    display: flex;
+
+    &Device {
+      flex-direction: column;
+      position: absolute;
+      width: 100%;
+      left: 0;
+    }
+
+    &left {
+      justify-content: flex-start;
+    }
+
+    &right {
+      justify-content: flex-end;
+    }
+  }
+
+  .link {
+    padding: 1.25em;
+    text-decoration: none;
+    color: $white;
+    display: inline-block;
+    border: 1px solid transparent;
+    line-height: 2.125em;
+
+    &:hover {
+      color: $green-dark;
+      background-color: $graphite-dark;
+    }
+
+    &:active {
+      border-color: $green-dark;
+    }
+  }
+}

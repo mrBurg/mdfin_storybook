@@ -1,0 +1,12 @@
+{
+  // "extends": "next/core-web-vitals",
+  "rules": {
+    "@typescript-eslint/no-this-alias": [
+      "error",
+      {
+        "allowDestructuring": false,
+        "allowedNames": ["controller"]
+      }
+    ]
+  }
+}

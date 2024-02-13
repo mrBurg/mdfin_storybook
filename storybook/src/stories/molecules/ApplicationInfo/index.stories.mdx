@@ -1,0 +1,43 @@
+import { Meta } from '@storybook/addon-docs';
+
+import 'mdfin-application-info/dist/css/ApplicationInfo.css';
+import scss from './ApplicationInfo.module.scss';
+
+import { storytitle, args } from './props';
+
+import { ApplicationInfo, LAYOUT } from 'mdfin-application-info';
+
+<Meta title={`${storytitle}/Description`} />
+
+# Application-Info
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/ApplicationInfo`
+
+> Шрифт компонента по умолчанию **Calibri**
+
+<dl>
+  <dt>{LAYOUT.DEFAULT} layout</dt>
+  <dd>
+    <ApplicationInfo {...args} className={scss.applicationInfo} />
+  </dd>
+  <dt>{LAYOUT.SHADED} layout</dt>
+  <dd>
+    <ApplicationInfo
+      {...args}
+      className={scss.applicationInfo}
+      layout={LAYOUT.SHADED}
+    />
+  </dd>
+  <dt>{LAYOUT.CENTERED} layout</dt>
+  <dd>
+    <ApplicationInfo
+      {...args}
+      className={scss.applicationInfo}
+      layout={LAYOUT.CENTERED}
+    />
+  </dd>
+</dl>
+
+[**component-driven**](/story/molecules-applicationinfo--primary-application-info)

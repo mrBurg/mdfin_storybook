@@ -1,0 +1,147 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.questionInnerWrap {
+  font-family: Raleway;
+  background-color: $white;
+  box-sizing: border-box;
+  margin: 0 6.25em;
+  padding: 4em;
+  box-shadow: 0px 8px 24px rgba(74, 4, 67, 0.19);
+  border-radius: 12px;
+
+  @media only screen and (max-width: $tab) {
+    margin: 0;
+  }
+
+  @media only screen and (max-width: $sm) {
+    padding: 1.5em;
+  }
+
+  .sentFormTitle {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    color: $violet-dark;
+
+    @media only screen and (max-width: $sm) {
+      font-size: 1.75em;
+    }
+  }
+
+  .title {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: $violet-dark;
+    text-align: center;
+
+    @media only screen and (max-width: $tab) {
+      font-size: 2em;
+    }
+
+    @media only screen and (max-width: $small) {
+      font-size: 1.7em;
+    }
+  }
+
+  .subtitle {
+    width: 100%;
+    max-width: 520px;
+    display: flex;
+    font-size: 0.88em;
+    color: $violet-light;
+    font-weight: 400;
+    margin: 2em auto 0;
+  }
+
+  .form {
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5em;
+
+    @media only screen and (max-width: $sm) {
+      margin-top: 1.5em;
+      row-gap: 1em;
+    }
+  }
+
+  .inputsBlock {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 1.5em;
+    justify-content: space-between;
+
+    @media only screen and (max-width: $sm) {
+      flex-direction: column;
+      row-gap: 1em;
+    }
+  }
+
+  .submitForm {
+    max-width: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (max-width: $sm) {
+      max-width: 100%;
+      row-gap: 1.5em;
+    }
+  }
+
+  .buttonComponent {
+    margin: auto 0 0;
+    background-color: $orange;
+    color: $black;
+    font-size: 0.875em;
+    font-weight: 700;
+    padding: 1em 0;
+    transition: all 0.3s linear;
+    box-shadow: 2px 4px 6px rgba(37, 48, 149, 0.25);
+    border: none;
+
+    &:active:not(:disabled),
+    &:hover:not(:disabled) {
+      color: $black;
+      background-color: $orange-dark;
+    }
+  }
+
+  .message {
+    display: flex;
+    margin-top: 2em;
+    font-size: 1.5em;
+    justify-content: center;
+
+    @media only screen and (max-width: $sm) {
+      font-size: 1em;
+    }
+  }
+
+  .submitImageWrap {
+    display: flex;
+    margin-top: 3.5em;
+    justify-content: center;
+  }
+
+  .submitImage {
+    display: flex;
+    width: 63px;
+    height: 63px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .input,
+  .textField {
+    max-width: 45%;
+    color: $violet-dark;
+
+    @media only screen and (max-width: $sm) {
+      max-width: 100%;
+    }
+  }
+}

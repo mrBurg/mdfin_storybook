@@ -1,0 +1,121 @@
+.ApplicationInfo_applicationInfo__dy4gD {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: Calibri;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_title__dafk2 {
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-bottom: 0.7em;
+  color: #373742;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_link__r7tR- {
+  color: #2a70c8;
+  text-decoration: underline;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_separator__mLSLM {
+  display: none;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0.75em auto;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_accent__4CZ6- {
+  font-weight: bold;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_datatable__CYdcv {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_datatable__CYdcv tbody {
+  font-size: 1em;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_datatable__CYdcv tbody tr td:first-child {
+  text-align: left;
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_datatable__CYdcv tbody tr td:first-child::after {
+  content: ":";
+}
+.ApplicationInfo_applicationInfo__dy4gD .ApplicationInfo_datatable__CYdcv tbody tr td:last-child {
+  text-align: right;
+  padding: 0.5em 1em 0.5em 0.5em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_default__8tbbO .ApplicationInfo_datatable__CYdcv {
+  background-color: #f6f7fb;
+  border-radius: 10px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL {
+  box-shadow: 3px 3px 3px rgba(4, 4, 4, 0.2);
+  padding: 1em;
+  /* @include respond(960) {
+    max-width: 23.25em;
+    padding: 1.34em 1em;
+  } */
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_title__dafk2 {
+  text-align: center;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv {
+  padding: 2.68em 1em 1em;
+  font-weight: bold;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv thead {
+  text-align: center;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv thead td {
+  padding-bottom: 1.25em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv tbody {
+  font-size: 0.9em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv tbody tr {
+  border-bottom: 1px solid #e1e1e1;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv tbody tr td {
+  padding: 0.8em 0.75em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv tbody tr td:first-child {
+  color: #707070;
+  text-align: right;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_datatable__CYdcv tbody tr:last-child {
+  border-bottom: none;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_shaded__QxtaL .ApplicationInfo_link__r7tR- {
+  color: #ed1b22;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_title__dafk2 {
+  text-align: center;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv {
+  padding: 2.68em 1em 1em;
+  font-weight: bold;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv thead {
+  text-align: center;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv thead td {
+  padding-bottom: 1.25em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv tbody {
+  font-size: 0.9em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv tbody tr {
+  border-bottom: 1px solid #e1e1e1;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv tbody tr td {
+  padding: 0.8em 0.75em;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv tbody tr td:first-child {
+  color: #707070;
+  text-align: right;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv tbody tr td:last-child {
+  text-align: left;
+}
+.ApplicationInfo_applicationInfo__dy4gD.ApplicationInfo_centered__O2uNW .ApplicationInfo_datatable__CYdcv tbody tr:last-child {
+  border-bottom: none;
+}
+/*# sourceMappingURL=ApplicationInfo.css.map */

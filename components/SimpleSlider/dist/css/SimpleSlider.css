@@ -1,0 +1,84 @@
+@import '~rc-slider/assets/index.css';
+
+.SimpleSlider_simpleSlider__rvEuH {
+  padding: 1em 0;
+  min-width: 304px;
+}
+.SimpleSlider_simpleSlider_marks__X8y8K {
+  padding-bottom: 2em;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider {
+  position: relative;
+  height: auto;
+  width: 100%;
+  border-radius: 6px;
+  touch-action: none;
+  box-sizing: border-box;
+  padding: 0;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-rail {
+  background-color: #e1e1e1;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-track {
+  background-color: #1256aa;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-handle {
+  background-color: #1256aa;
+  cursor: grab;
+  border: none;
+  width: 32px;
+  height: 32px;
+  transform: translate(-50%, calc(-50% + 2px)) !important;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  /* &:before {
+    border-right-color: $white;
+    border-left: 0;
+  } */
+  /* &:after {
+    border-left-color: $white;
+    border-right: 0;
+  } */
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-handle:before, .SimpleSlider_simpleSlider__rvEuH .rc-slider-handle:after {
+  display: none;
+  /* content: '';
+  display: block;
+  border: 5px solid transparent;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  width: 0;
+  height: 0;
+  margin: 3px; */
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-handle-dragging {
+  border: none !important;
+  box-shadow: none !important;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-handle:focus-visible {
+  border: none;
+  box-shadow: none;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-mark-text {
+  white-space: nowrap;
+  font-size: 1.3em;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-mark-text:first-child {
+  transform: translateX(0%) !important;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-mark-text:last-child {
+  transform: translateX(-100%) !important;
+}
+.SimpleSlider_simpleSlider__rvEuH .rc-slider-dot {
+  background-color: transparent;
+  border-color: #707070;
+  border-width: 1px;
+  /* &:first-child,
+  &:last-child {
+    display: none;
+  } */
+}
+/*# sourceMappingURL=SimpleSlider.css.map */

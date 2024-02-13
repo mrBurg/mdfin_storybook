@@ -1,0 +1,29 @@
+import { Meta } from '@storybook/addon-docs';
+
+import molecules from './../assets/parts/molecules.png';
+import moleculesExample from './../assets/parts/moleculesExample.png';
+
+<Meta title="molecules/Introduction" />
+
+<style>
+  {`
+  .imgContainer {
+    text-align: center;
+  }
+  `}
+  >
+</style>
+
+# Molecules
+
+Молекулы состоят из атомов. Здесь мы вольны сочетать сложные компоненты использовать их. Молекулы могут иметь свои собственные свойства и создавать функциональности с помощью атомов, которые,кстати, не включают в себя какую-либо логику.
+
+<div class="imgContainer">
+  <img src={molecules} />
+</div>
+
+В области интерфейсов молекулами являются относительно простые группы элементов, функционирующие вместе, как единое целое. Например, поле поиска, строка ввода и кнопка могут объединиться и создать молекулу формы поиска для сайта.
+
+<div class="imgContainer">
+  <img src={moleculesExample} />
+</div>

@@ -1,0 +1,66 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+tbody .sizeRow {
+  &:hover {
+    background-color: $gray-misty;
+  }
+}
+
+.table {
+  width: 100%;
+
+  td:nth-child(1) {
+    width: 2.5em;
+  }
+}
+
+.thead {
+  font-weight: bold;
+}
+
+.size {
+  background-color: $gray-light;
+  padding: 0 0.5em;
+  box-sizing: border-box;
+}
+
+.colors {
+  font-family: Calibri;
+  margin: auto;
+  width: fit-content;
+}
+
+.tile {
+  display: inline-block;
+  padding: 1.5em;
+  border: 1px solid $gray-light;
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  &First {
+    margin-right: 1em;
+  }
+
+  &Content {
+    // border: 1px solid $black;
+    // background-color: transparentize($white, 0.1);
+    width: 110px;
+    height: 110px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    border-radius: 0.5em;
+    filter: invert(1);
+  }
+}
+
+.srcList {
+  list-style: none;
+  padding: 0;
+}

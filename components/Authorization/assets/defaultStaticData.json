@@ -1,0 +1,12 @@
+{
+  "phoneNumber": {
+    "id": "phoneNumber",
+    "placeholder": "Telefon",
+    "phoneMask": "+40799999999"
+  },
+  "checkBox": {
+    "id": "marketing"
+  },
+  "agreeText": "Сonfirm că am citit și accept prelucrarea datelor mele în scop de marketing și publicitate<br/><br/>Înțeleg că prin apăsarea butonului „ÎNREGISTREAZĂ-TE” îmi dau acordul de a fi transferat instituțiilor financiare abilitate să-mi ofere un împrumut și/sau să fiu contactat de acestea și înțeleg că, dacă nu apăs acest buton, acestea din urmă nu mă pot contacta. Pentru detalii suplimentare, vă rugăm să citiți <a href=\"/docs/privacy_policy.pdf\" target=\"_blank\">Politica de confidențialitate</a>.",
+  "buttonText": "ÎNREGISTREAZĂ-TE"
+}

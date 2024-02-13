@@ -1,0 +1,22 @@
+import { Meta } from '@storybook/addon-docs';
+import classNames from 'classnames';
+
+import 'mdfin-carousel/dist/css/Carousel.css';
+import scss from './Carousel.module.scss';
+
+import { storytitle, args } from './props';
+
+import { Carousel } from 'mdfin-carousel';
+const { className, ...restProps } = args;
+
+<Meta title={`${storytitle}/Description`} />
+
+# Carousel
+
+<div className="description">This is the description of the component.</div>
+
+**Directory** `components/Carousel`
+
+<Carousel {...restProps} className={classNames(className, scss.carousel)} />
+
+[**component-driven**](/story/organisms-carousel--primary-carousel)

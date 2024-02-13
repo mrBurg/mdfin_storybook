@@ -1,0 +1,13 @@
+@use '~mdfin-theme/dist/scss/service' as *;
+
+.wrapper {
+  position: relative;
+  height: 50vh;
+  border: 1px solid $red;
+
+  .loanObtainingPanel {
+    display: block;
+    position: absolute;
+    max-height: 5em;
+  }
+}
